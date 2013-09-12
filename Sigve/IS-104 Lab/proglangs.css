@@ -1,0 +1,61 @@
+#liblue {
+		 color:blue;
+		 text-align:center;
+}
+
+#lired {
+		 color:red;
+		 text-align:center;
+}
+
+#liorange {
+		 color:orange;
+		 text-align:center;
+}
+
+#ligreen {
+		 color:green;
+		 text-align:center;
+}
+
+#liwhite {
+		 color:white;
+		 text-align:center;
+}
+
+#librown {
+		 color:brown;
+		 text-align:center;
+}
+
+
+h3 {
+    color: #000000;
+    background-color: #900;
+    font-size: 2em;
+    margin: 0;
+    margin-bottom: 4px;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 0.5em;
+    border-bottom-style: solid;
+    border-bottom-width: 0.4em;
+    border-bottom-color: #c00;
+	border-left-style: solid;
+	border-left-width: 1em;
+	border-left-color: #c00;
+	border-right-style: solid;
+	border-right-width: 1em;
+	border-right-color: #c00;
+	border-top-style: solid;
+	border-top-width: 0.3em;
+	border-top-color: #000000
+}
+
+p {
+	color:white
+}
+
+body {
+	  background-color:#2f251c;
+}

@@ -1,0 +1,126 @@
+﻿/* Lager nøkkelelementer som forteller hvordan start og slutt stadie for siden */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+ 
+ /*Får alle elementer i body til å fade-in når siden lastes inn*/
+html {
+    opacity:0;  /* Elementer blir usynlig ved page load */
+    -webkit-animation:fadeIn ease-in 1;  /* Henter keyframen "fadeIn, og bruker animasjonen ease-in kun 1 gang */
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+ 
+    -webkit-animation-fill-mode:forwards;  /* Dette forsikrer oss om at etter animasjonen er ferdig forholder vi oss til opacity: 1 */
+    -moz-animation-fill-mode:forwards;
+ 
+    -webkit-animation-duration:2s;
+    -moz-animation-duration:2s;
+    animation-duration:2s;
+
+	background-image: url('../Bilder/Exercise_background1.jpg');	
+	position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;	
+
+}
+
+#right_nav	{
+				
+				  top: 20%;
+				  right: 20%;
+				  position: absolute;
+				  visibility: show;"		
+
+}
+
+
+
+
+h3	{
+		font-style: serif;
+}
+
+a {
+    
+    text-decoration: none;
+}
+
+
+
+
+#divMenu, ul, li, li li {			/*Hele listen*/
+    margin: 0;
+    padding: 0;
+
+				  top: 75px;
+				  right: 75px;
+				  position: absolute;
+				  visibility: show;"	
+
+}
+ 
+	/* http://www.c-sharpcorner.com/UploadFile/cd7c2e/vertical-drop-down-menu-on-hover-using-css-and-html */
+#divMenu {
+    width: 150px;
+    height: 27px;
+}
+ 
+#divMenu ul
+{
+     line-height: 50px; /*Høyde på skriften i listen.*/
+}
+ 
+    #divMenu li {					/*Hovedlisten*/
+        list-style: none;
+        position: relative;
+        background: #efc415;	/*Farge på hovedlisten sin bakgrunn*/
+    }
+ 
+        #divMenu li li {			/*Inner liste*/
+            list-style: none;
+            position: relative;
+            background: #efc415;	/*Farge på inner list*/
+            right: 96px;			/*Inner list sin posisjon i forhold til hovedlisten, (Høyre eller venstre)*/
+            top: -27px;				/*Avstand fra toppen av listen*/
+        }
+ 
+ 
+    #divMenu ul li a {
+        width: 170px;										/*Hovedlistens bredde*/
+        height: 50px;										/*Hovedlistens høyde*/
+        display: block;
+        text-decoration: none;
+        text-align: center;									/*Selve teksten på listen*/
+        font-family: Arial black,'Times New Roman',serif;	/*Skrifttype på listens alternativ*/
+        color:#ffffff;
+        border:1px solid;									/*Hvit border rundt hvert alternativ i listen, så ikke hele
+															listen skal bli samme farge*/
+    }
+ 
+    #divMenu ul ul {
+        position: absolute;
+        visibility: hidden;					/*Skjuler inner list når du ikke drar musen over*/
+        top: 27px;							/*Posisjon når man drar musen over*/
+    }
+ 
+    #divMenu ul li:hover ul {
+        visibility: visible;				/*Aktiverer mouse hover på inner list*/
+    }
+ 
+    #divMenu li:hover {
+        background-color: #ef9f15;			/*Farge på hovedlisten når du drar musen over den*/
+    }
+ 
+    #divMenu ul li:hover ul li a:hover {
+        background-color: #ef9f15;			/*Farge på inner list når du drar musen over den*/
+    }
+ 
+    #divMenu a:hover {
+        font-weight: bold;
+    }

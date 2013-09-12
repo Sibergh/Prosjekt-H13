@@ -1,0 +1,33 @@
+﻿#Liste{
+color:brown
+}
+#Liste1{
+color:red
+}
+#Liste2{
+color:green
+}
+#Liste3{
+color:blue
+}
+#Liste4{
+color:blue
+}
+#farge{
+color:brown
+}
+#farge1{
+color:red
+}
+#farge2{
+color:green
+}
+#farge3{
+color:blue
+}
+#Sentrere {
+	position: relative;
+	left:250px;
+	margin-right: auto;
+	margin-left: auto;
+

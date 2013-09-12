@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<script>
+function programmeringspraak()
+{
+var mylist=document.getElementById("Liste");
+document.getElementById("valgte").value=mylist.options[mylist.selectedIndex].text;
+}
+</script>
+</head>
+
+<body>
+<form>
+Velg programmeringspråk:
+<select id="Liste" onchange="programmeringspraak()">
+  <option id="option-1"></option>
+  <option>AppleScript</option>
+  <option>Asp</option>
+  <option>Basic</option>
+  <option>C</option>
+  <option>C++</option>
+  <option>Clojure</option>
+  <option>Cobol</option>
+  <option>Coldfusion</option>
+  <option>Erlang</option>
+  <option>Fortrean</option>
+  <option>Groovy</option>
+  <option>Haskell</option>
+  <option>Java</option>
+  <option>JavaScript</option>
+  <option>Lisp</option>
+  <option>Perl</option>
+  <option>PHP</option>
+  <option>Python</option>
+  <option>Ruby</option>
+</select><b></b><br>
+<span>Følgende programmeringspråk er valgt >>: <input type="text" id="valgte"></span>
+</form>
+</body>
+
+</html>

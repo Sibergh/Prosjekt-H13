@@ -1,0 +1,30 @@
+﻿/*Loginside*/
+
+/*Hoveddel*/
+body {
+    background-image: url(Bakgrunn.jpg);
+	background-attachment: cover;
+	background-repeat: no-repeat;
+}
+
+/*ID*/
+#signuplink {
+
+
+}
+
+#login {
+margin-top: 200px;
+text-align: center;
+}
+
+/*Class*/
+.tekstfelt {
+background: rgba(255,150,0,200);
+border: 2px;
+color: lightorange;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+}

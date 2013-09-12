@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+
+<!--
+  LAB1
+  Navn: Nicolai Juul Roberg
+  Jeg samarbeidet med: Ingen
+  Tiden jeg har brukt på oppgaven: Par timer på å løse de vanlige oppgavene + masse tid på outputbox + link
+-->
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Programmeringsspråk (versjon 0.0.1)</title>
+	<script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+	<link rel="stylesheet" href="proglangs.css" type="text/css" media="all" />
+</head>
+<body>
+
+<!-- Oppgave 0 -->
+
+	<div>
+	<p>Programmeringsspråk</p>
+		<ul style="list-style-type:none">
+			<li id="blue"> Actionscript</li>
+			<li id="blue"> Applescript</li>
+			<li id="blue"> Asp</li>
+			<li id="blue"> BASIC</li>
+			<li id="red"> C</li>
+			<li id="red"> C++</li>
+			<li id="red"> Clojure</li>
+			<li id="red"> COBOL</li>
+			<li id="yellow"> ColdFusion</li>
+			<li id="yellow"> Erlang</li>
+			<li id="yellow"> Fortran</li>
+			<li id="yellow"> Groovy</li>
+			<li id="orange"> Haskell</li>
+			<li id="orange"> Java</li>
+			<li id="orange"> Javascript</li>
+			<li id="orange"> Lisp</li>
+			<li id="brown"> Perl</li>
+			<li id="brown"> PHP</li>
+			<li id="brown"> Python</li>
+			<li id="brown"> Ruby</li>
+			<li id="brown"> Scala</li>
+			<li id="brown"> Scheme</li>
+		</ul>
+	</div>
+	
+<!-- Oppgave 1 + 2 -->
+
+		<p>Programmeringsspråk</p>
+		<form id="liste">
+			<select id="list" onchange="e(this)">
+				<option value="" selected>Velg et språk</option>
+				<option value="">Actionscript</option>
+				<option value="">Applescript</option>
+				<option value="">Asp</option>
+				<option value="">BASIC</option>
+				<option value="">C</option>
+				<option value="">C++</option>
+				<option value="">Clojure</option>
+				<option value="">COBOL</option>
+				<option value="">ColdFusion</option>
+				<option value="">Erlang</option>
+				<option value="">Fortran</option>
+				<option value="">Groovy</option>
+				<option value="">Haskell</option>
+				<option value="">Java</option>
+				<option value="">Javascript</option>
+				<option value="">Lisp</option>
+				<option value="">Perl</option>
+				<option value="">PHP</option>
+				<option value="">Python</option>
+				<option value="">Ruby</option>
+				<option value="">Scala</option>
+				<option value="">Scheme</option>
+			</select>
+		<br/>
+		<p>Du har selektert programmeringsspråk: <span id="outputbox" onclick=""></span></p>    <!--onclick=window.open("http:www.nordea.no")-->
+<script type="text/javascript" src="proglangs.js"></script>
+		</form>
+
+</body>
+</html>
